@@ -1,0 +1,205 @@
+{
+  "config": {
+    "inner_max_iters": 100.0,
+    "inner_tol": 1e-11,
+    "lam": 0.0,
+    "max_iters": 100.0,
+    "operator_norm": 0.8548468356226399,
+    "pixel_step": 1.9,
+    "rho": 1.0,
+    "stall_patience": 5.0,
+    "stall_tol": 1e-08,
+    "tol": 0.0005
+  },
+  "difference": {
+    "max_abs_uncropped": 0.245615819048185,
+    "mean_uncropped": -0.0006969295717145929,
+    "reference": "synthetic truth",
+    "rms_uncropped": 0.09526356116470627,
+    "visual_scale": 4.071398999768087
+  },
+  "figures": {
+    "crop_size": 20,
+    "cropping_is_display_only": true,
+    "metrics_use_uncropped_values": true
+  },
+  "image_shape": [
+    12,
+    12
+  ],
+  "iterations": 16,
+  "iterations_log": [
+    {
+      "gradient_residual_norm": 0.4292542194950325,
+      "inner_converged": false,
+      "inner_iters": 100,
+      "iteration": 1,
+      "offset_l1": 42.78738430855431,
+      "projection_objective": 0.0006913736021508976,
+      "residual_norm": 0.03718530898489073,
+      "split_objective": 0.0006995192186737705
+    },
+    {
+      "gradient_residual_norm": 0.03668024411207717,
+      "inner_converged": false,
+      "inner_iters": 100,
+      "iteration": 2,
+      "offset_l1": 43.285246163777984,
+      "projection_objective": 0.0002192642131946021,
+      "residual_norm": 0.02094107032577858,
+      "split_objective": 0.00022069391651166446
+    },
+    {
+      "gradient_residual_norm": 0.02077747794305163,
+      "inner_converged": false,
+      "inner_iters": 100,
+      "iteration": 3,
+      "offset_l1": 43.49256202754111,
+      "projection_objective": 0.00010688277092762427,
+      "residual_norm": 0.014620723027786572,
+      "split_objective": 0.0001073682110023709
+    },
+    {
+      "gradient_residual_norm": 0.014537892870649986,
+      "inner_converged": false,
+      "inner_iters": 100,
+      "iteration": 4,
+      "offset_l1": 43.62593692082116,
+      "projection_objective": 6.15630544088424e-05,
+      "residual_norm": 0.01109622047445367,
+      "split_objective": 6.177482150844396e-05
+    },
+    {
+      "gradient_residual_norm": 0.011044791576335028,
+      "inner_converged": false,
+      "inner_iters": 100,
+      "iteration": 5,
+      "offset_l1": 43.726065717022855,
+      "projection_objective": 3.8858656151127036e-05,
+      "residual_norm": 0.008815742300127317,
+      "split_objective": 3.896445821606891e-05
+    },
+    {
+      "gradient_residual_norm": 0.008780911889019903,
+      "inner_converged": false,
+      "inner_iters": 100,
+      "iteration": 6,
+      "offset_l1": 43.81033928781045,
+      "projection_objective": 2.6148144462995583e-05,
+      "residual_norm": 0.007231617310532352,
+      "split_objective": 2.6206078852287163e-05
+    },
+    {
+      "gradient_residual_norm": 0.007206741698633144,
+      "inner_converged": false,
+      "inner_iters": 100,
+      "iteration": 7,
+      "offset_l1": 43.87164199930226,
+      "projection_objective": 1.8463077711054686e-05,
+      "residual_norm": 0.006076689511741519,
+      "split_objective": 1.849700977420365e-05
+    },
+    {
+      "gradient_residual_norm": 0.006058157839070468,
+      "inner_converged": false,
+      "inner_iters": 100,
+      "iteration": 8,
+      "offset_l1": 43.916846658658756,
+      "projection_objective": 1.3523736717077465e-05,
+      "residual_norm": 0.005200718549792416,
+      "split_objective": 1.3544658399086992e-05
+    },
+    {
+      "gradient_residual_norm": 0.00518640671273802,
+      "inner_converged": false,
+      "inner_iters": 100,
+      "iteration": 9,
+      "offset_l1": 43.950935993437284,
+      "projection_objective": 1.0186630673880467e-05,
+      "residual_norm": 0.00451367492712545,
+      "split_objective": 1.020006241801852e-05
+    },
+    {
+      "gradient_residual_norm": 0.004502279332329338,
+      "inner_converged": false,
+      "inner_iters": 100,
+      "iteration": 10,
+      "offset_l1": 43.97716236317731,
+      "projection_objective": 7.838704845846457e-06,
+      "residual_norm": 0.003959470885319516,
+      "split_objective": 7.8476140526602e-06
+    },
+    {
+      "gradient_residual_norm": 0.003950164606311704,
+      "inner_converged": false,
+      "inner_iters": 100,
+      "iteration": 11,
+      "offset_l1": 43.99771654909526,
+      "projection_objective": 6.1319886475105134e-06,
+      "residual_norm": 0.0035019961871796813,
+      "split_objective": 6.138059603138599e-06
+    },
+    {
+      "gradient_residual_norm": 0.003494237697084362,
+      "inner_converged": false,
+      "inner_iters": 100,
+      "iteration": 12,
+      "offset_l1": 44.01417892304502,
+      "projection_objective": 4.858611428324872e-06,
+      "residual_norm": 0.003117246037233786,
+      "split_objective": 4.862843534649459e-06
+    },
+    {
+      "gradient_residual_norm": 0.003110669203814408,
+      "inner_converged": false,
+      "inner_iters": 100,
+      "iteration": 13,
+      "offset_l1": 44.02800747167991,
+      "projection_objective": 3.888564300816898e-06,
+      "residual_norm": 0.0027887503655999396,
+      "split_objective": 3.891572791757395e-06
+    },
+    {
+      "gradient_residual_norm": 0.0027830997982517614,
+      "inner_converged": false,
+      "inner_iters": 100,
+      "iteration": 14,
+      "offset_l1": 44.03925617281047,
+      "projection_objective": 3.1371627408584736e-06,
+      "residual_norm": 0.0025048603717007754,
+      "split_objective": 3.1393382302937613e-06
+    },
+    {
+      "gradient_residual_norm": 0.002499952609602231,
+      "inner_converged": false,
+      "inner_iters": 100,
+      "iteration": 15,
+      "offset_l1": 44.04852077312461,
+      "projection_objective": 2.5472518988533073e-06,
+      "residual_norm": 0.002257100750455463,
+      "split_objective": 2.5488489792094344e-06
+    },
+    {
+      "gradient_residual_norm": 0.0022528004036455568,
+      "inner_converged": false,
+      "inner_iters": 100,
+      "iteration": 16,
+      "offset_l1": 44.056237998224574,
+      "projection_objective": 2.079054098320417e-06,
+      "residual_norm": 0.0020391439862454132,
+      "split_objective": 2.0802424941923267e-06
+    }
+  ],
+  "message": "observation residual reached absolute tolerance",
+  "metrics": {
+    "final_residual_norm": 0.0020391439862454132,
+    "initial_residual_norm": 1.2129717703201295,
+    "max_abs_error_uncropped": 0.245615819048185,
+    "n_observed": 101,
+    "n_pixels": 144,
+    "residual_relative_reduction": 0.9983188858668102,
+    "residual_rms": 0.0001699286655204511,
+    "rmse_vs_truth_uncropped": 0.09526356116470627
+  },
+  "status": "converged"
+}
